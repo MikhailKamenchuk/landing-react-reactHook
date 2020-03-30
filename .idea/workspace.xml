@@ -1,8 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92189bbf-2d49-4ace-aefa-fed33097603e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/fixtures/comments.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dummy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/appp/appp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/appp/appp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/comments-form/comments-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/comments-form/comments-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/comments-list-item/comment/comment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/comments-list-item/comment/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/comments-list-item/comments-list-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/comments-list-item/comments-list-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/comments-list-item/commrnt-reply-form/commrnt-reply-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/comments-list-item/commrnt-reply-form/commrnt-reply-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/comments-list/comments-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/comments-list/comments-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ruby_cromsai/context/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cylinder-border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fixtures/our-services-list.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/fixtures/our-services-list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about-details/about-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about-details/about-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about-details/about-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about-details/about-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/featured-works/featured-works.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured-works/featured-works.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/featured-works/featured-works.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured-works/featured-works.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/our-services/our-services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/our-services/our-services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/our-services/our-services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/our-services/our-services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/our-services/percentage-circle/percentage-circle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/our-services/percentage-circle/percentage-circle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/our-services/percentage-circle/percentage-circle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/our-services/percentage-circle/percentage-circle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/featured-works/feautured01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/featured-works/feautured01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/featured-works/feautured02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/featured-works/feautured02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/featured-works/feautured03.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/featured-works/feautured03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/featured-works/feautured04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/feautured-tooter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/feautured-tooter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/feautured01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/feautured02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/feautured03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/feautured04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Z1xwT0RssUwBbJaf7JIHRIAMFt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\store\public" />
+      <recent name="D:\projects\store\src\components" />
+      <recent name="D:\projects\store\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92189bbf-2d49-4ace-aefa-fed33097603e" name="Default Changelist" comment="" />
+      <created>1584020639995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584020639995</updated>
+      <workItem from="1584020642897" duration="49462000" />
+      <workItem from="1584876241326" duration="76675000" />
+      <workItem from="1585330498214" duration="28335000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/featured-works/featured-works.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

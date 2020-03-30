@@ -1,0 +1,77 @@
+.about__details{
+    background-color: #f3f3f3;
+}
+
+.about__details__heading{
+padding: 48px 350px 0 350px;
+}
+
+.about__details__title{
+    text-align: center;
+}
+
+.about__details__title__description{
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #81868e;
+}
+
+.about__details__icons_list{
+    padding: 48px 0 0 0;
+}
+
+.about__details__icons_list__item{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #81868e;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 27px;
+    cursor: pointer;
+}
+
+.about__details__icons_list__item:last-child{
+    margin-right: 0;
+}
+
+.about__details__icons_list__item:hover, .about__details__icons_list__item:active{
+    background-color: #19bd9a;
+}
+
+.heart{
+    background-image: url("../../img/icon-heart.png");
+}
+
+.mouse{
+    background-image: url("../../img/icon-mouse.png");
+}
+
+.light-bulb{
+    background-image: url("../../img/icon-light-bulb.png");
+}
+
+.about__details__selected, h3.about__details__selected_title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h3.about__details__selected_title{
+    font-size: 20px;
+    line-height: 100px;
+    color: #333b46;
+}
+
+.about__details__selected_description{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.about__details__selected_content{
+    font-size: 14px;
+    line-height: 25px;
+    padding: 105px 0;
+}
+

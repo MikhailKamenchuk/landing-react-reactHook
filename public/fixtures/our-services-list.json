@@ -2,23 +2,64 @@
   {
     "id": "0",
     "title": "Development Tools",
-    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem\\n"
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem\\n",
+    "services": [
+      {
+        "percent": "90",
+        "caption": "AWS"
+      },
+      {
+        "percent": "75",
+        "caption": "Node.js"
+      },
+      {
+        "percent": "60",
+        "caption": "React.js"
+      },
+      {
+        "percent": "90",
+        "caption": "GitHub"
+      }
+    ]
   },
   {
     "id": "1",
     "title": "Graphic Design",
-    "description": "Doing business like this takes much more effort than doing your own business at home, and on top of that there\\'s the curse of travelling, worries about making train connections, bad and irregular food, contact with different people all the time so that you can never get to know anyone"
+    "description": "Doing business like this takes much more effort than doing your own business at home, and on top of that there\\'s the curse of travelling, worries about making train connections, bad and irregular food, contact with different people all the time so that you can never get to know anyone",
+    "services": [
+      {
+        "percent": "80",
+        "caption": "Branding"
+      },
+      {
+        "percent": "75",
+        "caption": "Web Design"
+      },
+      {
+        "percent": "60",
+        "caption": "UI/UX"
+      }
+    ]
   },
   {
     "id": "2",
     "title": "Game Development",
-    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem\\n\n"
+    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem\\n\n",
+    "services": [
+      {
+        "percent": "60",
+        "caption": "Android"
+      },
+      {
+        "percent": "55",
+        "caption": "IOs"
+      }
+    ]
   },
   {
     "id": "3",
     "title": "Support",
-    "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem\\n"
+    "description": "In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra,\\n"
   }
 ]
-
 

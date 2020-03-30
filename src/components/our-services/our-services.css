@@ -1,0 +1,113 @@
+.our__services{
+    background-color: #f3f3f3;
+}
+
+.our__services__heading{
+    padding: 48px 350px 0 350px;
+}
+
+.our__services__title{
+    text-align: center;
+}
+
+.our__services__title__description{
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #81868e;
+}
+
+.our__services__icons_list{
+    padding-top: 18px;
+}
+
+.our__services__icons_list__item{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #81868e;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+
+.our__services__icons_list__item:last-child{
+    margin-bottom: 0;
+}
+
+.our__services__icons_list__item.tools {
+    background-image: url("../../img/services-icons/tools-icon.png");
+}
+
+.our__services__icons_list__item.design {
+    background-image: url("../../img/services-icons/design-icon.png");
+}
+
+.our__services__icons_list__item.games {
+    background-image: url("../../img/services-icons/games-icon.png");
+}
+
+.our__services__icons_list__item.support {
+    background-image: url("../../img/services-icons/some-icon.png");
+}
+
+.our__services__article{
+    padding-left: 45px;
+}
+
+.our__services__article__title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-transform: none;
+    line-height: 100px;
+}
+
+.our__services__article__main{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.our__services__subsections{
+    padding-left: 70px;
+}
+
+.our__services__subsections__item{
+    margin-right: 42px;
+    width:130px;
+}
+
+.our__services__subsections__item:last-child{
+    margin-right: 0;
+}
+
+.our__services__subsections__item .border__block{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:4px solid #19bd9a;
+    margin-bottom: 22px;
+}
+
+.our__services__subsections__item .percents{
+    margin: 0;
+}
+
+.our__services__subsections__item .percents .percents__digits{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-right: 2px;
+}
+
+.our__services__subsections__item .caption{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+

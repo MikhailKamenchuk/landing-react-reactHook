@@ -1,0 +1,28 @@
+.about{
+    padding: 80px 0;
+}
+
+.about__text{
+    padding: 0 160px;
+}
+
+.about__title{
+
+}
+
+.about__description{
+    padding: 19px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #81868e
+}
+
+.about__more{
+    font-size: 16px;
+    line-height: 12px;
+    color: #333b46;
+    border: 1px solid #333b46;
+    border-radius: 15px 15px;
+    padding: 5px 10px;
+}

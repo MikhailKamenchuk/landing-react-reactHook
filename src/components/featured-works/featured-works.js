@@ -1,37 +1,42 @@
-import React, {useState} from "react";
+import React from "react";
 
+
+import {selectedHandler} from '../../utils/index';
 import './featured-works.css';
+import {Link} from "react-router-dom";
 
 const FeaturedWorks = () => {
-    // const[article, selectArticle] = useState(articles[2]);
     return(
-        <section className='about__details'>
+        <section className='featured__works'>
             <div className='container'>
-                <div className='about__details__heading row '>
+                <div className='featured__works__heading row '>
                     <div className="col-lg-12 d-flex flex-column align-items-center">
-                        <h2 className="about__details__title">
-                            Details about Bouncy
+                        <h2 className="featured__works__title">
+                            Featured Projects
                         </h2>
-                        <p className='about__details__title__description'>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-                        <ul className="about__details__icons_list d-inline-flex">
-                            <li className="about__details__icons_list__item heart" onClick={() => {selectArticle(articles[0])}}/>
-                            <li className="about__details__icons_list__item mouse" onClick={() => {selectArticle(articles[1])}}/>
-                            <li className="about__details__icons_list__item light-bulb" onClick={() => {selectArticle(articles[2])}}/>
-                        </ul>
-                    </div>
-                </div>
-                <div className="about__details__selected row d-lex justify-content-space-between">
-                    <div className="col-lg-5">
-                        <h3 className="about__details__selected_title">{article.title}</h3>
-                        <p className='about__details__selected_description'>
-                            {article.description}
+                        <p className='featured__works__title__description'>
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                         </p>
                     </div>
-                    <div className="col-lg-7">
-                        <article className='about__details__selected_content'>
-                            {article.content}
-                        </article>
-                    </div>
+                </div>
+            </div>
+            <ul className='featured__works__images__list d-flex'>
+                <li className="featured__works__images__list__item col-lg-6 item__01" >
+                    <span onClick={selectedHandler} className="shadow need__selected__control">Restyling</span>
+                </li>
+                <li className="featured__works__images__list__item col-lg-3 item__02" >
+                    <span onClick={selectedHandler} className="shadow need__selected__control">Vintage</span>
+                </li>
+                <li className="featured__works__images__list__item col-lg-3 item__03" >
+                    <span onClick={selectedHandler} className="shadow need__selected__control">Branding</span>
+                </li>
+            </ul>
+            <div className="featured__works__footing d-flex">
+                <p className="col-lg-9">
+                    At vero eos et <b>accusamus</b> et iusto odio dignissimos ducimus qui blanditiis
+                </p>
+                <div className="submit__button col-lg-3">
+                    <Link to='/register' className="cylinder-border">Submit Now</Link>
                 </div>
             </div>
         </section>

@@ -6,7 +6,6 @@ import About from "../about/about";
 import AboutDetails from "../about-details/about-details";
 import FeaturedWorks from "../featured-works/featured-works";
 import OurServices from "../our-services/our-services";
-import Appp from "../ruby_cromsai/appp/appp";
 
 
 const App = () => {
@@ -17,7 +16,6 @@ const App = () => {
             <AboutDetails/>
             <FeaturedWorks/>
             <OurServices/>
-            <Appp/>
         </>
     )
 };

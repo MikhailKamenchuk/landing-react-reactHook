@@ -1,0 +1,41 @@
+.team__quotes{
+    background-image: url("../../img/team-quotes-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #9c9d9d;
+    padding: 36px 0 46px 0
+}
+
+.team__quotes h2{
+    color: #9c9d9d;
+}
+
+.team__quotes__article{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 44px;
+}
+
+.team__quotes__article__author{
+    text-transform: uppercase;
+}
+
+.team__quotes__article__author__name{
+    padding-left: 4px;
+}
+
+.team__quotes__monitor__block{
+    position: relative;
+}
+.team__quotes__monitor{
+    background-image: url("../../img/apple-monitor.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 329px;
+    width: 410px;
+    position: absolute;
+    top:-78px;
+    right: 0;
+}

@@ -6,6 +6,9 @@ import About from "../about/about";
 import AboutDetails from "../about-details/about-details";
 import FeaturedWorks from "../featured-works/featured-works";
 import OurServices from "../our-services/our-services";
+import TeamQuotes from "../team-quotes/team-quotes";
+import Portfolio from "../portfolio/portfolio";
+import SubmitNowForm from "../submit-now-form/submit-now-form";
 
 
 const App = () => {
@@ -16,6 +19,9 @@ const App = () => {
             <AboutDetails/>
             <FeaturedWorks/>
             <OurServices/>
+            <TeamQuotes/>
+            <Portfolio/>
+            < SubmitNowForm />
         </>
     )
 };

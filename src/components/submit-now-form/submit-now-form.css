@@ -1,0 +1,26 @@
+.submit-form {
+    padding: 80px 0;
+}
+
+.needs-validation{
+    width:100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.needs-validation .btn {
+    background-color: #19bd9a;
+    margin: 30px 0;
+    color: #f3f3f3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 400
+;
+}
+
+.needs-validation textarea{
+    min-height: 188px;
+}

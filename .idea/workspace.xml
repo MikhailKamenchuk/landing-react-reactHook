@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92189bbf-2d49-4ace-aefa-fed33097603e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/fixtures/portfolio.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/portfolio/works-preview-list/works-preview-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/submit-now-form/submit-now-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/submit-now-form/submit-now-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/team-quotes/team-quotes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/team-quotes/team-quotes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/apple-monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio-previews/preview_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio-previews/preview_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio-previews/preview_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio-previews/preview_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio-previews/preview_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio-previews/preview_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio-previews/preview_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/portfolio-previews/preview_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/team-quotes-bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/our-services/our-services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/our-services/our-services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +104,10 @@
       <workItem from="1584020642897" duration="49462000" />
       <workItem from="1584876241326" duration="76675000" />
       <workItem from="1585330498214" duration="28335000" />
-      <workItem from="1585570865486" duration="616000" />
+      <workItem from="1585570865486" duration="2131000" />
+      <workItem from="1586249806434" duration="16189000" />
+      <workItem from="1586687934868" duration="22966000" />
+      <workItem from="1588858085151" duration="4000" />
     </task>
     <servers />
   </component>
@@ -114,6 +137,16 @@
           <url>file://$PROJECT_DIR$/src/components/featured-works/featured-works.js</url>
           <line>22</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/team-quotes/team-quotes.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/portfolio/portfolio.js</url>
+          <line>56</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

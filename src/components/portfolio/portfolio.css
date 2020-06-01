@@ -1,0 +1,70 @@
+.portfolio{
+    background-color: #f3f3f3;
+    padding: 30px 0;
+}
+
+.portfolio__heading {
+    padding: 48px 350px;
+}
+
+.portfolio__navigation{
+    padding: 30px 0;
+}
+
+.portfolio__navigation li.selected {
+    color: #19bd9a;
+}
+
+.portfolio__title__description{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.portfolio nav li{
+    margin-right: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 12px;
+    cursor: pointer;
+}
+
+
+
+.images__list__row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.images__list__column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.images__list__column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .images__list__column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .images__list__column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
